@@ -42,7 +42,7 @@ import {
 
 // Configuration
 const API_CONFIG = {
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:3001',
+  baseURL: process.env.REACT_APP_API_BASE_URL || 'http://localhost:3001',
   timeout: 15000,
   retryAttempts: 3,
   retryDelay: 1000,
