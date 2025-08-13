@@ -227,7 +227,7 @@ async function startServer() {
     }
     
     // For local development
-if (process.env.NODE_ENV !== 'production') {
+if (process.env.NODE_ENV !== 'development') {
   const PORT = process.env.PORT || 3001;
   app.listen(PORT, '0.0.0.0', () => {
     console.log('AfriPayFlow server running successfully!');
